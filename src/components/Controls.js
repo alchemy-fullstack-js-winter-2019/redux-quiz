@@ -14,3 +14,5 @@ Controls.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired
 };
+
+export default Controls;
