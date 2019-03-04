@@ -1,6 +1,6 @@
 export const UPDATE_TITLE = 'UPDATE_TITLE';
 
-export const updateTITLE = title => ({
+export const updateTitle = title => ({
   type: UPDATE_TITLE,
   payload: title 
 });
