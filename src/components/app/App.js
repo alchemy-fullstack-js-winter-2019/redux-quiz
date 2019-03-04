@@ -1,5 +1,26 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 
-export default function App() {
-  return <h1>Hi</h1>;
+export default function App extends PureComponent {
+  state = {
+    title: '',
+    subtitle: '',
+  };
+
+  onChange = ({ target }) => {
+    this.setState({ [target.name]: target.value });
+  }
+
+  render() {
+    const { title, subtitle } = this.state;
+
+     return (
+      <>
+        <Controls 
+          title={title}
+          subtitle={subtitle}
+          onChange={this.onChange}
+        />
+      </>  
+    );
+  }
 }
