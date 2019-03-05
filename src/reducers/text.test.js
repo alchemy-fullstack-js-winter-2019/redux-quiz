@@ -16,4 +16,19 @@ describe('reducer tests', () => {
       bottomText: 'New bottom text'
     });
   });
+
+  it('can update top text', () => {
+    const state = {
+      topText: 'This is top text',
+      bottomText: 'This is bottom text'
+    };
+    const updateTopTextAction = updateTopText('New top text');
+    
+    const updatedState = reducer(state, updateTopTextAction);
+
+    expect(updatedState).toEqual({
+      topText: 'New top text',
+      bottomText: 'This is bottom text'
+    });
+  });
 });
