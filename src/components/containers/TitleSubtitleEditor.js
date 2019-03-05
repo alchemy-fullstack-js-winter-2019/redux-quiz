@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import Control from '../presentational/Control';
+import Control from '../prensentational/Control';
 import { getTitle } from '../selectors/titleSelector';
 import { updateTitle } from '../actions/titleAction';
 
