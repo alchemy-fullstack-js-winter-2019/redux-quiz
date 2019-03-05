@@ -4,8 +4,7 @@ const CleanPlugin = require('clean-webpack-plugin');
 module.exports = {
   entry: ['@babel/polyfill', './src/index.js'],
   output: {
-    filename: 'bundle.[hash].js',
-    publicPath: '/'
+    filename: 'bundle.[hash].js'
   },
   devServer: {
     port: 7890,
@@ -23,9 +22,9 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
+            cacheDirectory: true,
             presets: ['@babel/preset-env', '@babel/preset-react'],
-            plugins: ['@babel/plugin-proposal-class-properties'],
-            cacheDirectory: true
+            plugins: ['@babel/plugin-proposal-class-properties']
           }
         }
       },

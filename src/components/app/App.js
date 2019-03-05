@@ -1,5 +1,11 @@
 import React from 'react';
+import TitleSubtitleEditor from '../../containers/TitleSubtitleEditor';
 
-export default function App() {
-  return <h1>Hi</h1>;
+
+function App() {
+  return (
+    <TitleSubtitleEditor />
+  );
 }
+
+export default App;
