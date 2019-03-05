@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import TitleSubtitleEditor from '../../containers/TitleSubtitleEditor';
+import TitleSubtitleDisplay from '../../containers/TitleSubtitleDisplay';
 
 export default function App() {
   return (
-    <TitleSubtitleEditor />
+    <Fragment>
+      <TitleSubtitleEditor />
+      <TitleSubtitleDisplay />
+    </Fragment>
   );
 }
