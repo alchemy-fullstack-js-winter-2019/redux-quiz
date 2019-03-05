@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls Test  matches a snapshot 1`] = `
+<form>
+  <input
+    name="title"
+    onChange={[MockFunction]}
+    type="text"
+    value="myTitle"
+  />
+  <input
+    name="subtitle"
+    onChange={[MockFunction]}
+    type="text"
+    value="mySubtitle"
+  />
+</form>
+`;
