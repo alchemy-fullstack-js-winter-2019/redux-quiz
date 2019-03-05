@@ -9,13 +9,11 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = (dispatch) => ({
-  onChange({ target }) {
-    if(target.name === 'title') {
-      dispatch(updateTitle(target.value));
-    }
-    if(target.name === 'subtitle') {
-      dispatch(updateSubtitle(target.value));
-    }
+  onTitleChange({ target }) {
+    dispatch(updateTitle(target.value));
+  },
+  onSubtitleChange({ target }) {
+    dispatch(updateSubtitle(target.value));
   }
 });
 

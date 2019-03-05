@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Controls({ title, subtitle, onChange }) {
+function Controls({ title, subtitle, onTitleChange, onSubtitleChange }) {
   return (
     <>
-    <input onChange={onChange} name={title} value={title}></input>
-    <input onChange={onChange} name={subtitle} value={subtitle}></input>
+    <input onChange={onTitleChange} name={title} value={title}></input>
+    <input onChange={onSubtitleChange} name={subtitle} value={subtitle}></input>
     </>
   );
 }
@@ -13,7 +13,8 @@ function Controls({ title, subtitle, onChange }) {
 Controls.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
-  onChange: PropTypes.func.isRequired
+  onTitleChange: PropTypes.func.isRequired,
+  onSubtitleChange: PropTypes.func.isRequired 
 };
 
 export default Controls;
