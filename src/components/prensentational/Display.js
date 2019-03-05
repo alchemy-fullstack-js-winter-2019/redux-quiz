@@ -11,8 +11,8 @@ function Display({ title, subTitle }) {
 }
 
 Display.propTypes =  {
-  title: PropTypes.string.isRequired,
-  subTitle: PropTypes.string.isRequired
+  title: PropTypes.string,
+  subTitle: PropTypes.string
 };
 
 export default Display;

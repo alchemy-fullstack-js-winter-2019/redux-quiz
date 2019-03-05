@@ -13,9 +13,9 @@ function Control({ title, onChange, subTitle }) {
 }
 
 Control.propTypes =  {
-  title: PropTypes.string.isRequired,
-  onChange: PropTypes.func.isRequired,
-  subTitle: PropTypes.string.isRequired
+  title: PropTypes.string,
+  onChange: PropTypes.func,
+  subTitle: PropTypes.string
 };
 
 export default Control;
