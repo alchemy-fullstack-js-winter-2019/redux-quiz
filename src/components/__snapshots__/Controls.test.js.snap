@@ -6,14 +6,18 @@ Array [
     Title:
     <input
       name="title"
+      onChange={[MockFunction]}
       type="text"
+      value="sup"
     />
   </label>,
   <label>
     Subtitle:
     <input
       name="subtitle"
+      onChange={[MockFunction]}
       type="text"
+      value="how you doin"
     />
   </label>,
 ]
