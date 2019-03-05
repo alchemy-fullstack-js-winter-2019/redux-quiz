@@ -1,4 +1,4 @@
-import reducer from './title';
+import reducer from './titleReducer';
 
 describe('reducer test', () => {
   it('can update a title', () => {

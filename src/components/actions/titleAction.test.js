@@ -1,4 +1,4 @@
-import { UPDATE_TITLE, updateTitle } from './title.js';
+import { UPDATE_TITLE, updateTitle } from './titleAction.js';
 
 describe('action test', () => {
   it('creates an update title action', () => {

@@ -1,6 +1,6 @@
 import { 
   UPDATE_TITLE
-} from '../actions/title';
+} from '../actions/titleAction';
 
 const initialState = {
   title: ''
