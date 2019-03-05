@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls renders controls 1`] = `
+Array [
+  <input
+    name="title"
+    value="hey"
+  />,
+  <input
+    name="subtitle"
+    value="sup"
+  />,
+]
+`;

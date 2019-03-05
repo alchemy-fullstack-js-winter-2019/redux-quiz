@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display renders controls 1`] = `
+Array [
+  <h1>
+    hey
+  </h1>,
+  <h2>
+    sup
+  </h2>,
+]
+`;

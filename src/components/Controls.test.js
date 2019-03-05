@@ -1,18 +1,18 @@
 import React from 'react';
-import { shallow } from 'enzyme';
 import Controls from './Controls';
+import renderer from 'react-test-renderer';
 
 describe('Controls', () => {
   it('renders controls', () => {
     const onChange = jest.fn();
-    const wrapper = shallow(
+    const tree = renderer.create(
       <Controls
         title={'hey'}
         subtitle={'sup'}
         onChange={onChange}
       />
-    );
+    ).toJSON();
 
-    expect(wrapper).toMatchSnapshot();
+    expect(tree).toMatchSnapshot();
   });
 });
