@@ -18,7 +18,7 @@ export default function reducer(state = initialState, action) {
     case UPDATE_SUBTITLE:
       return {
         ...state,
-        title: action.payload
+        subtitle: action.payload
       };
     default:
       return state;
