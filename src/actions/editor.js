@@ -6,6 +6,6 @@ export const updateTitle = title => ({
 
 export const UPDATE_SUBTITLE = 'UPDATE_SUBTITLE';
 export const updateSubTitle = subtitle => ({
-  type: UPDATE_TITLE,
+  type: UPDATE_SUBTITLE,
   payload: subtitle
 });
