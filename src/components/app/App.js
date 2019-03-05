@@ -1,5 +1,15 @@
 import React from 'react';
+import ControlsContainer from '../../containers/ControlsContainter';
+import ControlsFormContainer from '../../containers/ControlsFormContainer';
 
-export default function App() {
-  return <h1>Hi</h1>;
+function App() {
+  return (
+    <>
+    <ControlsFormContainer />
+    <ControlsContainer />
+    </>
+
+  );
 }
+
+export default App;
