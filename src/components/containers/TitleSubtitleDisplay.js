@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import Display from '../prensentational/Display';
+import Display from '../components/Display';
 import { getTitle, getSubTitle } from '../selectors/titleSelector';
 
 const mapStateToProps = state => ({
