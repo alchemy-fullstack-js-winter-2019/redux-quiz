@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls matches a snapshot 1`] = `
+Array [
+  <input
+    name="title"
+  />,
+  <input
+    name="subtitle"
+  />,
+]
+`;
