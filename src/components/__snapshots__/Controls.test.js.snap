@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls matches a snapshot 1`] = `
+Array [
+  <label>
+    Title:
+    <input
+      name="title"
+      onChange={[MockFunction]}
+      type="text"
+      value="sup"
+    />
+  </label>,
+  <label>
+    Subtitle:
+    <input
+      name="subtitle"
+      onChange={[MockFunction]}
+      type="text"
+      value="how you doin"
+    />
+  </label>,
+]
+`;
