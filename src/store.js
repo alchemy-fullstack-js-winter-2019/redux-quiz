@@ -1,8 +1,7 @@
 import { createStore } from 'redux';
-import index from './reducers';
+import inputs from './reducers/inputs';
 
 export default createStore(
-  index,
+  inputs,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
-
