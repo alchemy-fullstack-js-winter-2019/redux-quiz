@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 function Display({ title, subtitle }) {
   return (
     <>
-    <h1 name={title} value={title}></h1>
-    <h2 name={subtitle} value={subtitle}></h2>
+    <h1 name={title} value={title}>{title}</h1>
+    <h2 name={subtitle} value={subtitle}>{subtitle}</h2>
     </>
   );
 }

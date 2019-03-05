@@ -1,4 +1,4 @@
-import { connect } from 'redux';
+import { connect } from 'react-redux';
 import Display from '../components/Display';
 import { getSubtitle, getTitle } from '../selectors/TitleSubtitleEditor';
 
