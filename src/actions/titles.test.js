@@ -9,6 +9,7 @@ describe('title actions', () => {
       payload: 'updated subtitle'
     });
   });
+  
   it('can updateTitle', () => {
     const action = updateTitle('updatedTitle');
 

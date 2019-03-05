@@ -8,7 +8,6 @@ describe('titles selector', () => {
     };
 
     const selectedTitle = getTitle(state);
-
     expect(selectedTitle).toEqual('this is my title');
   });
 
@@ -19,7 +18,6 @@ describe('titles selector', () => {
     };
 
     const selectedSubtitle = getSubtitle(state);
-
     expect(selectedSubtitle).toEqual('this is my subtitle');
   });
 });

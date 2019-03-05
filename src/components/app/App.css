@@ -1,8 +1,15 @@
 * {
   font-family: 'Courier New', Courier, monospace;
+  header {
+    background: black;
+    color: white;
+    padding: 20px;
+    margin: 0;
+  }
   .controls {
     display: flex;
     justify-content: space-around;
+    margin: 20px;
   }
   .display {
     font-family: 'Courier New', Courier, monospace;
