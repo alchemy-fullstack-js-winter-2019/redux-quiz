@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 function Controls({ title, subtitle, updateTitle, updateSubTitle }) {
   return (
     <>
-      <input name="title" value={title} onChange={updateTitle}/>
-      <input name="subtitle" value={subtitle} onChange={updateSubTitle} />
+      <p>Title: <input name="title" value={title} onChange={updateTitle}/></p>
+      <p>Subtitle: <input name="subtitle" value={subtitle} onChange={updateSubTitle}/></p>
     </>
   );
 }
