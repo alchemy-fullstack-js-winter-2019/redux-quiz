@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`action test updates title 1`] = `
+Object {
+  "payload": "Real Title",
+  "type": "UPDATE_TITLE",
+}
+`;

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducer test reduer test 1`] = `
+Object {
+  "subtitle": "",
+  "title": "title1",
+}
+`;
