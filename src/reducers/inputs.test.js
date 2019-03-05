@@ -1,4 +1,8 @@
 import reducer from './inputs';
+import {
+  UPDATE_TITLE,
+  UPDATE_SUBTITLE
+} from '../actions/inputs';
 
 describe('inputs reducer', () => {
   it('handles the update title action', () => {
@@ -7,7 +11,7 @@ describe('inputs reducer', () => {
       subtitle: ''
     };
     const updatedState = reducer(state, {
-      type: 'UPDATE_TITLE',
+      type: UPDATE_TITLE,
       payload: 'this is a title'
     });
     expect(updatedState).toEqual({
@@ -22,7 +26,7 @@ describe('inputs reducer', () => {
       subtitle: ''
     };
     const updatedState = reducer(state, {
-      type: 'UPDATE_SUBTITLE',
+      type: UPDATE_SUBTITLE,
       payload: 'this is a subtitle'
     });
     expect(updatedState).toEqual({

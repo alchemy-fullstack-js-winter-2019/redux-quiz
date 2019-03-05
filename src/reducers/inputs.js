@@ -1,4 +1,7 @@
-
+import {
+  UPDATE_TITLE,
+  UPDATE_SUBTITLE
+} from '../actions/inputs';
 
 const initialState = {
   title: '',
@@ -10,12 +13,12 @@ export default function reducer(
   { type, payload }
 ) {
   switch(type) {
-    case 'UPDATE_TITLE':
+    case UPDATE_TITLE:
       return {
         ...state,
         title: payload
       };
-    case 'UPDATE_SUBTITLE':
+    case UPDATE_SUBTITLE:
       return {
         ...state,
         subtitle: payload
