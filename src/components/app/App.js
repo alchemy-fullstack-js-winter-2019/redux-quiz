@@ -1,5 +1,12 @@
 import React from 'react';
+import Controls from '../../containers/TitleSubtitleEditor';
+import Header from '../../containers/TitleSubtitleDisplay';
 
 export default function App() {
-  return <h1>Hi</h1>;
+  return (
+    <>
+      <Controls />
+      <Header  />
+    </>
+  );
 }
