@@ -1,5 +1,5 @@
 import { connect } from 'redux';
-import Controls from '../components/Controls';
+import Display from '../components/Display';
 import { getSubtitle, getTitle } from '../selectors/TitleSubtitleEditor';
 
 const mapStateToProps = state => ({
@@ -7,13 +7,6 @@ const mapStateToProps = state => ({
   subtitle: getSubtitle(state)
 });
 
-const mapDispatchToProps = state => ({
-  onChange({ target }) {
-    
-  }
-});;
-
 export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(Controls);
+  mapStateToProps
+)(Display);
