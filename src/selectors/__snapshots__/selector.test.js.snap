@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selector test selector 1`] = `"i hate this test"`;
+
+exports[`selector test selector 2`] = `[Function]`;
