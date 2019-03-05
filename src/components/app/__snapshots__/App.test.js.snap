@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot can match a snapshot 1`] = `
+Array [
+  <h1>
+    Redux Quiz
+  </h1>,
+  <input
+    name="title"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />,
+  <input
+    name="subtitle"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />,
+  <div>
+    <h1>
+      
+    </h1>
+    <h2>
+      
+    </h2>
+  </div>,
+]
+`;
