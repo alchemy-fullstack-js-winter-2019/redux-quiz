@@ -1,12 +1,10 @@
 import React from 'react';
-import Display from '../Display';
-import Controls from '../Controls';
+import TitleSubtitleEditor from '../../containers/TitleSubtitleEditor';
 
 export default function App() {
   return (
     <>
-      <Controls/>
-      <Display/>
+      <TitleSubtitleEditor />
     </>
   );
 }

@@ -1,18 +1,21 @@
-import { UPDATE_TEXT } from '../actions/text';
+import { UPDATE_TOP_TEXT, UPDATE_BOTTOM_TEXT } from '../actions/text';
 
 const initialState = {
-  text: {
-    topText: 'This is top text',
-    bottomText: 'This is bottom text'
-  }
+  topText: 'This is top text',
+  bottomText: 'This is bottom text'
 };
 
 export default function reducer(state = initialState, action) {
   switch(action.type) {
-    case UPDATE_TEXT:
+    case UPDATE_TOP_TEXT:
       return { 
         ...state,
-        text: action.payload
+        topText: action.payload
+      };
+    case UPDATE_BOTTOM_TEXT:
+      return { 
+        ...state,
+        bottomText: action.payload
       };
   }
   return state;

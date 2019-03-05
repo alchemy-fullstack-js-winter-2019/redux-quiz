@@ -1,12 +1,18 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-function Display() {
+function Display({ topText, bottomText }) {
   return (
     <>
-      <h1>Top Text</h1>
-      <h2>Bottom Text</h2>
+      <h1>{topText}</h1>
+      <h2>{bottomText}</h2>
     </>
   );
 }
+
+Display.propTypes = {
+  topText: PropTypes.string.isRequired,
+  bottomText: PropTypes.string.isRequired
+};
 
 export default Display;

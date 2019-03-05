@@ -1,5 +1,8 @@
-export const getText = state => {
-  return state.text;
+export const getTopText = state => {
+  return state.topText;
 };
 
+export const getBottomText = state => {
+  return state.bottomText;
+};
 
