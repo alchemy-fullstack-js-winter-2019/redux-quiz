@@ -13,7 +13,7 @@ const mapStateToProps = state => ({
     subtitle: getSubtitle(state)
 })
 
-const mapDispatchToProps = dispatch => ({
+const mapDispatchToProps = (dispatch) => ({
     onChange({ target }) {
         dispatch(factoryMethod[target.name](target.value));
     }
