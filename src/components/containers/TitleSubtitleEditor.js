@@ -12,7 +12,7 @@ const mapDispatchProps = (dispatch) => ({
   onChange({ target }) {
     const factoryCreate = {
       title: updateTitle,
-      subTitle: updateSubtitle
+      subtitle: updateSubtitle
     };
     
     dispatch(factoryCreate[target.name](target.value));

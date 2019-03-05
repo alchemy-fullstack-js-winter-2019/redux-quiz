@@ -1,18 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Display({ title, subTitle }) {
+function Display({ title, subtitle }) {
   return (
     <>
       <h1> {title} </h1>
-      <h2> {subTitle} </h2>
+      <h3> {subtitle} </h3>
     </>
   );
 }
 
 Display.propTypes =  {
   title: PropTypes.string,
-  subTitle: PropTypes.string
+  subtitle: PropTypes.string
 };
 
 export default Display;

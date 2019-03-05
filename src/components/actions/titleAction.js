@@ -6,7 +6,7 @@ export const updateTitle = title => ({
   payload: title 
 });
 
-export const updateSubtitle = subTitle => ({
+export const updateSubtitle = subtitle => ({
   type: UPDATE_SUBTITLE,
-  payload: subTitle 
+  payload: subtitle 
 });
