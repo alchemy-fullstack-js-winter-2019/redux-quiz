@@ -29,7 +29,7 @@ describe('reducer', () => {
 
     expect(updateTitle).toEqual({
       ...state,
-      title: 'sup2'
+      subtitle: 'sup2'
     });
   });
 
