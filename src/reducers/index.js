@@ -1,8 +1,8 @@
 import { UPDATE_TITLE, UPDATE_SUBTITLE } from '../actions/controls';
 
 const initialState = {
-  title: 'Sample Title',
-  subtitle: 'Sample SubTitle'
+  title: 'Up Down (Do This All Day)',
+  subtitle: 'Panoramic view from the 99th floor!'
 };
 
 export default function reducer(state = initialState, action) {

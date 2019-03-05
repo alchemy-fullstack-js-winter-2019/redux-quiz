@@ -1,17 +1,20 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './app/App.css';
 
 function Controls({ title, subtitle, onChange }) {
   return (
-    <Fragment>
-      <label>Title:
-        <input type="text" name="title" value={title} onChange={onChange} />
+    <div className={styles.form}>
+      <h3>Input Form</h3>
+
+      <label className={styles.label}>Title:
+        <input className={styles.input} type="text" name="title" value={title} onChange={onChange} />
       </label>
 
-      <label>Subtitle:
-        <input type="text" name="subtitle" value={subtitle} onChange={onChange} />
+      <label className={styles.label}>Subtitle:
+        <input className={styles.input} type="text" name="subtitle" value={subtitle} onChange={onChange} />
       </label>
-    </Fragment>
+    </div>
   );
 }
 

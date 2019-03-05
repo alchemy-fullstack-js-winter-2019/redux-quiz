@@ -17,7 +17,7 @@ describe('reducer', () => {
     });
   });
 
-  it('handles the update body action', () => {
+  it('handles the update subtitle action', () => {
     const state = {
       title: '',
       subtitle: ''
