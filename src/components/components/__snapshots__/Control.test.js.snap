@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character matches a snapshot 1`] = `
+Array [
+  <label>
+     Title 
+  </label>,
+  <input
+    name="title"
+    type="text"
+    value="title"
+  />,
+  <label>
+     Subtitle 
+  </label>,
+  <input
+    name="subtitle"
+    type="text"
+    value="subtitle"
+  />,
+]
+`;

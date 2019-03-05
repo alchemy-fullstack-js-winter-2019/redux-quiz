@@ -14,9 +14,8 @@ const mapDispatchProps = (dispatch) => ({
       title: updateTitle,
       subtitle: updateSubtitle
     };
-    
     dispatch(factoryCreate[target.name](target.value));
-  }
+  },
 });
 
 const TitleContainer = connect(
