@@ -5,8 +5,12 @@ import PropTypes from 'prop-types';
 export default function Controls({ title, subtitle, onChange }) {
     return (
         <>
-        <input type="text" value={title} name='title' onChange={onChange}/>
-        <input type="text" value={subtitle} name='subtitle' onChange={onChange}/>
+        <label>Title: 
+            <input type="text" value={title} name='title' onChange={onChange}/>
+        </label>
+        <label>Subtitle: 
+            <input type="text" value={subtitle} name='subtitle' onChange={onChange}/>
+        </label>
         </>
     );
 }

@@ -5,7 +5,7 @@ import Display from '../../containers/display/Display';
 export default function App() {
     return (
     <>
-        <h1>Hello Ryan.</h1>;
+        <h1>Hello Ryan.</h1>
         <Controls/>
         <Display/>
      </>
