@@ -1,7 +1,6 @@
 import reducer from './Controls';
 import { UPDATE_TITLE, UPDATE_SUBTITLE } from '../actions/Controls';
 
-
 describe('Control reducer tests', () => {
     it('handles an update title action', () => {
         const state = {

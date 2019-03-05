@@ -3,7 +3,6 @@ import Controls from '../../components/controls/Controls';
 import { getTitle, getSubtitle } from '../../selectors/Controls';
 import { updateTitle, updateSubtitle } from '../../actions/Controls';
 
-
 const mapStateToProps = state => ({
     title: getTitle(state),
     subtitle: getSubtitle(state)
